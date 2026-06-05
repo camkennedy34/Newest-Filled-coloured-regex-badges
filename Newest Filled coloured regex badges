@@ -311,11 +311,11 @@
       "isEnabled": true,
       "name": "HDR10+",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?=.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)",
-      "tagColor": "#666100",
+      "tagColor": "#ffbe01",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#666100"
+      "borderColor": "#ffbe01"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -324,11 +324,11 @@
       "isEnabled": true,
       "name": "HDR10",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?=.*\\bhdr\\s*10\\b)",
-      "tagColor": "#666100",
+      "tagColor": "#ffbe01",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#666100"
+      "borderColor": "#ffbe01"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -337,11 +337,11 @@
       "isEnabled": true,
       "name": "HDR",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?!.*\\bhdr\\s*10\\b)(?=.*\\bhdr\\b).*",
-      "tagColor": "#666100",
+      "tagColor": "#ffbe01",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#666100"
+      "borderColor": "#ffbe01"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -350,11 +350,11 @@
       "isEnabled": true,
       "name": "SDR",
       "pattern": "(?i)^(?=.*(?:\\.(?:mkv|mp4|avi|mov|m4v|ts)\\b|\\b(?:x264|x265|xvid|h[ ._-]?264|h[ ._-]?265|hevc|avc|web[-_. ]?dl|webrip|blu[-_. ]?ray|bd[-_. ]?remux|bdremux|remux|bdrip|bdmux|dvd|dvdrip|hdtv|uhd|4k)\\b))(?!.*(?:^|[^A-Za-z0-9])(?:dovi|dv|dolby[ ._-]?vision|hdr10(?:\\+|plus|p)?|hdr[ ._-]?10[ ._-]?(?:\\+|plus|p)?|hdr|hlg)(?=$|[^A-Za-z0-9])).*$",
-      "tagColor": "#3a87fe",
+      "tagColor": "#0095d5",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#3a87fe"
+      "borderColor": "#0095d5"
     },
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
@@ -363,21 +363,21 @@
       "isEnabled": true,
       "name": "ATMOS",
       "pattern": "(?=.*(^|[.\\s_\\-])[aA][tT][mM][oO][sS]([.\\s_\\-]|$))(?=.*(?:[dD][dD][pP]|[dD][dD]\\+|[eE]-?[aA][cC]3|[eE][aA][cC]3))",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
-      "borderColor": "#adadad",
+      "borderColor": "#ffffff",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
       "imageURL": "https://i.postimg.cc/LXQJWhFB/IMG-7360.png",
       "isEnabled": true,
       "name": "TRUEHD",
       "pattern": "(?i)(?:\\btrue[ ._-]?hd\\b|^(?=.*\\batmos\\b)(?=.*\\bremux\\b)(?!.*\\b(?:true[ ._-]?hd|ddp|dd\\+|e-?ac3|eac3)\\b).+$)",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter"
@@ -389,11 +389,11 @@
       "isEnabled": true,
       "name": "DTS-X",
       "pattern": "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
@@ -402,11 +402,11 @@
       "isEnabled": true,
       "name": "DTS-HD MA",
       "pattern": "(?i)(?=.*\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d))(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d))(?!.*dts[-. ]?(es|(hd[. ]?)?(hr|hi)))",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
@@ -415,11 +415,11 @@
       "isEnabled": true,
       "name": "DTS-HD",
       "pattern": "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
@@ -428,11 +428,11 @@
       "isEnabled": true,
       "name": "DOLBY DIGITAL +",
       "pattern": "(?i)^(?!.*(?:^|[.\\s_\\-])atmos(?:[.\\s_\\-]|$)).*(?:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3).*",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
@@ -441,11 +441,11 @@
       "isEnabled": true,
       "name": "DTS",
       "pattern": "(?i)^(?=.*\\bDTS(?:\\b|\\d)) (?!.*\\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll))(?:\\b|\\d)) (?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi))) (?!.*(?:\\bDD[P+]|(?:\\be[-_. ]?ac-?3\\b))) (?!.*(?:True[ .-]?HD|\\bATMOS(?:\\b|\\d))) (?!.*(?:\\bDD[^a-z+]|(?<!e-)\\b(?:ac-?3)\\b)) (?!.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456]))) (?!.*\\bFLAC(?:\\b|\\d)) (?!.*\\bAAC(?:\\b|\\d)) (?!.*\\b(?:l?)PCM(?:\\b|\\d)).*$",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
@@ -454,11 +454,11 @@
       "isEnabled": true,
       "name": "DOLBY DIGITAL",
       "pattern": "(?i)(?=.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDTS(\\b|\\d))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d)) ",
-      "tagColor": "#adadad",
+      "tagColor": "#ffffff",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#adadad"
+      "borderColor": "#ffffff"
     },
     {
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
@@ -467,11 +467,11 @@
       "isEnabled": true,
       "name": "7.1 CH",
       "pattern": "(?i)(?=.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]|\\\\b(Stereo|Mono)\\\\b)",
-      "tagColor": "#3a87fe",
+      "tagColor": "#0095d5",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#3a87fe"
+      "borderColor": "#0095d5"
     },
     {
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
@@ -480,11 +480,11 @@
       "isEnabled": true,
       "name": "6.1 CH",
       "pattern": "(?i)(?=.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
-      "tagColor": "#3a87fe",
+      "tagColor": "#0095d5",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#3a87fe"
+      "borderColor": "#0095d5"
     },
     {
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
@@ -493,11 +493,11 @@
       "isEnabled": true,
       "name": "5.1 CH",
       "pattern": "(?i)(?=.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
-      "tagColor": "#3a87fe",
+      "tagColor": "#0095d5",
       "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter",
-      "borderColor": "#3a87fe"
+      "borderColor": "#0095d5"
     }
   ]
 }
